@@ -4,7 +4,7 @@
 mkdir -p data
 mkdir -p tmp
 if [ ! -f tmp/source.zip ]; then
-wget -O "tmp/source.zip" "hanbit.co.kr/lib/examFileDown.php?hed_idx=3801"
+wget -O "tmp/source.zip" "hanbit.co.kr/lib/examFileDown.php?hed_idx=5000"
 fi
 cd tmp
 unzip "source.zip"
